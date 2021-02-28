@@ -25,7 +25,7 @@ public class Main {
 				break;
 				
 			default:
-				System.out.println("Op��o inv�lida");
+				System.out.println("Opcao invalida");
 				
 		}
 		

@@ -83,7 +83,7 @@ public class RedesController {
 				while(linha!=null){
 					if(linha.contains("dia =")){
 						String[] vetorMedia = linha.split("dia ");
-						System.out.println("M�dia " + vetorMedia [1]);
+						System.out.println("Media " + vetorMedia [1]);
 					}
 					linha = buffer.readLine();
 				}
