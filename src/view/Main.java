@@ -10,7 +10,7 @@ public class Main {
 		
 		RedesController redescontrol = new RedesController();
 		String so = System.getProperty("os.name");
-		int resp = Integer.parseInt(JOptionPane.showInputDialog(" Digíte:\n"
+		int resp = Integer.parseInt(JOptionPane.showInputDialog(" Digite:\n"
 				+ " 1 para IP \n 2 para Ping \n 3 para Finaliza"));
 		switch(resp){
 			case 1:
@@ -25,7 +25,7 @@ public class Main {
 				break;
 				
 			default:
-				System.out.println("Opção inválida");
+				System.out.println("Opï¿½ï¿½o invï¿½lida");
 				
 		}
 		
